@@ -1,4 +1,4 @@
-Penjelasan:
+**`Penjelasan`**:
 ​
 * Pertama, kita membuat sebuah node dummy yang akan menjadi awal dari linked list hasil penjumlahan.
 * Kemudian, kita menginisialisasi pointer **`current`** yang awalnya menunjuk ke node dummy.
@@ -13,4 +13,3 @@ Penjelasan:
 * Kemudian, pointer **`current`** akan dipindahkan ke node berikutnya dalam linked list hasil penjumlahan.
 * Setelah perulangan selesai, jika masih ada carry yang tersisa, kita tambahkan digit carry tersebut sebagai node terakhir dalam linked list hasil penjumlahan.
 * Akhirnya, kita mengembalikan pointer ke node awal hasil penjumlahan, yaitu node setelah dummy.
-* Anda dapat menggunakan kode ini sebagai referensi untuk mengimplementasikan fungsi **`addTwoNumbers`** dalam bahasa pemrograman lainnya.
